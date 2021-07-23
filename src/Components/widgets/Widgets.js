@@ -22,7 +22,7 @@ function Widgets() {
         <InfoIcon />
       </div>
       {newsArticle(
-        'Imran khan is elected new priminster of Pakistan 2023',
+        'Imran khan is elected new prime minister of Pakistan 2023',
         'Top news - PTV'
       )}
       {newsArticle('Cronavirus: pakistan updates', 'Top news - PTV')}
@@ -30,7 +30,7 @@ function Widgets() {
       {newsArticle('Bitcoin Break', 'Top news - PT')}
       {newsArticle('IT is top trend in Pakistan 2023', 'Top news - PTV')}
       {newsArticle(
-        'Aghacod IT compny lanch new technologs 2023',
+        'Agaicode Technologies IT company lanch new technologs 2023',
         'Top news - PTV'
       )}
     </div>
