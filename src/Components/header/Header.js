@@ -1,15 +1,15 @@
-import React from 'react';
-import SearchIcon from '@material-ui/icons/Search';
-import HomeIcon from '@material-ui/icons/Home';
-import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
-import NotificationImportantIcon from '@material-ui/icons/NotificationImportant';
-import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
-import MessageIcon from '@material-ui/icons/Message';
-import './Header.css';
-import HeaderOption from '../headerOption/HeaderOption';
-import { auth } from '../../firebase';
-import { logout, selectUser } from '../../features/userSlice';
-import { useDispatch, useSelector } from 'react-redux';
+import React from "react";
+import SearchIcon from "@material-ui/icons/Search";
+import HomeIcon from "@material-ui/icons/Home";
+import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
+import NotificationImportantIcon from "@material-ui/icons/NotificationImportant";
+import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
+import MessageIcon from "@material-ui/icons/Message";
+import "./Header.css";
+import HeaderOption from "../headerOption/HeaderOption";
+import { auth } from "../../firebase";
+import { logout } from "../../features/userSlice";
+import { useDispatch } from "react-redux";
 function Header() {
   const dispatch = useDispatch();
   const logoutOfApp = () => {
@@ -42,4 +42,3 @@ function Header() {
 }
 
 export default Header;
-//3 35 57
